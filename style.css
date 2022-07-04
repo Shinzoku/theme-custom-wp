@@ -1,0 +1,38 @@
+/* 
+Theme Name: WP Custome Theme
+Theme URI: https://github.com/Shinzoku/wp-custom-theme
+Author: Shinzoku
+Author URI: https://github.com/Shinzoku
+Requires at least: 6.0
+Requires PHP: 8.1.7
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+/* 
+la version de wp : wp core version
+la version de php : php -v
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    /* background-color: rgb(52, 162, 217); */
+    background-color: #a2cad4;
+}
+
+h1,
+h2 {
+    font-family: 'Lobster', cursive;
+}
+
+p {
+    color: #D1D5DB;
+    padding: 8px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #9CA3AF;
+}
